@@ -1,0 +1,28 @@
+.card img{border-radius: 50%;}
+.card p{padding: 1% 20px;margin: 0;text-align: center;}
+.card h1{background: #03a9f4;
+    color: white;
+    text-align: center;
+    padding: 3%;}
+.card{background-color: #ffffff;    position: relative;
+    top: 50px;}    
+
+.container{width:650px;margin: 0 auto;}   
+.title{text-align: center;}
+.ng-select{ 
+    margin: 2%;
+    border: 1px solid;
+    padding: 1%;}
+:host >>>  .ng-dropdown-panel{opacity: 1;
+        background: white !important;
+        left: 0% !important;}    
+:host >>> .ng-dropdown-panel .ng-dropdown-panel-items .ng-option{padding: 1%;}        
+.background{background-image: url('../../assets/image/background.jpg');height: 100vh;}
+.next{text-align: center;
+    padding: 1%;}
+.next button{    background: red;
+    border: none;
+    outline: none;
+    padding: 1% 2%;
+    color: white;
+    text-transform: uppercase;} 

@@ -1,0 +1,11 @@
+
+<div class="back">
+<div class="container">
+    <div *ngIf="news" class="card">
+        <img [src]="image">
+        <h1 class="title">{{news.first_name}} </h1>
+        <p>{{news.last_name}} </p>
+        <p><span>EMAIL: </span>{{news.email}} </p>
+      </div>
+    </div>
+</div>
